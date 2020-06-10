@@ -1,5 +1,5 @@
 name: DamageCommand
-main: com.SmilerRyan.DeathCommand.Main
+main: com.Brad.DamageCommand
 version: 1.0
 author: [SmilerRyan, BradTheGamer]
 description: Runs 
