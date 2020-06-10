@@ -1,0 +1,11 @@
+name: DamageCommand
+main: com.SmilerRyan.DeathCommand.Main
+version: 1.0
+author: [SmilerRyan, BradTheGamer]
+description: Runs 
+commands:
+  DC:
+    description: Enable or disable the DamageCommand
+    usage: /DC
+    permission: DamageCommand.toggle
+    permission-message: You don't have the permission DamageCommand.toggle

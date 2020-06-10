@@ -1,0 +1,35 @@
+###########################################################################
+#                                                                         #
+# DamageCommand by BradTheGamer                            #
+#                                                                         #
+# DamageCommand Performs a certain command on taking damage               #
+# Based on Fundy's Forge Mod: https://www.youtube.com/watch?v=Zcx_XHJrU0s #
+#                                                                         #
+###########################################################################
+
+#Usable Variables:
+#  %Player%  - The player who took damage.
+#  %Prefix%  - The Prefix of the plugin.
+#  %Damage%  - How much damage the player took.
+#  %Event%   - The Type of Damage taken.
+#  %Time%    - The timestamp of when the damage was taken.
+#  %Enabled% - Shows if the Damage Events are Enabled.
+#  %Type%    - Shows Which command type will be executed.
+#  %Command% - The command which will be ran on Damage.
+
+#COMMAND TYPES: 
+#SERVER - Runs The command on The Minecraft Server
+#SYSTEM - Runs The command on the machine hosting the server
+TYPE: SERVER
+
+#Command To Run on Server/System
+Command: say %Player% Has taken %Damage% amount of damage at %Time% by %Event%.
+
+#Enable/Disable Plugin
+Enabled: true
+
+#Join Message (Set To NONE To Disable.)
+JoinMessage: This Server Uses DeathCommands By BradTheGamer.
+ 
+#Permission Nodes:
+#DamageCommand.toggle - Allows A User to turn the plugin on/off
